@@ -11,7 +11,8 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            image: NetworkImage('https://www.w3Schools.com/w3css/img_lights.jpg'),
+            //image: NetworkImage('https://www.w3Schools.com/w3css/img_lights.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       )
